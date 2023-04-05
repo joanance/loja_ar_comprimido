@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header , section h2 , form button{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Bungee', cursive ;
+    font-weight: normal;
+}
+
+header {
+    padding: 24px 0;
+    background-color: #182C61;
+    color:#ecf0f1;
+}
+
+header nav li  {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    text-decoration: none;
+    color:#ecf0f1;
+}
+
+section .container article img{
+    height: 220px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+h2 {
+    height: 50px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    color:#182C61;
+
+}
+
+.container img {
+    border:5px #182C61;
+}
+
+p {
+    color: black;
+}
+
+form button {
+    width: 50px;
+    height: 35px;
+    background-color: #182C61;
+    color: #ecf0f1;
+    border:none;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 75%;
+}
+
+
+.articles article {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+section {
+    background-color: #ecf0f1;
+}
